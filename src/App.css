@@ -1,0 +1,37 @@
+.timer-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  font-family: 'Arial', sans-serif;
+}
+.timer-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+.timer-display {
+  font-size: 3rem !important;
+  text-align: center;
+  margin: 2rem 0;
+  color: #1890ff;
+}
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.history-card {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+:global(.ant-list-item) {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+:global(.ant-tag) {
+  font-size: 1rem;
+  padding: 0.2rem 0.5rem;
+}
